@@ -1,0 +1,24 @@
+{
+  "name": "connect-test-data-generator",
+  "version": "0.1.0",
+  "description": "Aids in generating test data for Connect",
+  "repository": "https://github.com/getconnect/connect-test-data-generator",
+  "homepage": "https://github.com/getconnect/connect-test-data-generator/",
+  "author": "Matt Furness",
+  "dependencies": {
+    "chance": "^0.8.0",
+    "connect-js": "^0.4.1",
+    "lodash": "^3.10.1",
+    "traverse": "^0.6.6"
+  },
+  "main": "lib/index",
+  "engines": {
+    "node": ">= 0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-datetime": "^1.4.0",
+    "mocha": "^2.3.3",
+    "q": "^1.4.1"
+  }
+}
