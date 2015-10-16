@@ -2,7 +2,7 @@
 
 ## Overview
 
-Use an objet as a template to generate batches of data with random values to push into [Connect](https://getconnect.io) collection. Below describes how to use it in conjuction with the excellent [Chance](http://chancejs.com) library.
+Use an object as a template to generate batches of data with random values to push into [Connect](https://getconnect.io) collection. Below describes how to use it in conjuction with the excellent [Chance](http://chancejs.com) library.
 
 ## Installation
 
@@ -24,7 +24,7 @@ The example below generates random values for 1001 events. These events will hav
 ```js
 "use strict"
 let chance = require('chance')(),
-    generator = require('./lib/index');
+    generator = require('connect-test-data-generator');
 
 let randomString = () => chance.character({alpha: true});
 
